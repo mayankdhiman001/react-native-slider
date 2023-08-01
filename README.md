@@ -1,4 +1,4 @@
-# react-native-customslider
+# react-native-custom-slider
 
 <img width="345" alt="Screenshot 2023-08-01 at 5 03 36 PM" src="https://github.com/mayankdhiman001/react-native-customslider/assets/139946115/c2209b88-d9a7-4120-a06c-13be10a4f06a">
 
