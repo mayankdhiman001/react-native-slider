@@ -1,1 +1,42 @@
+To use the CustomSlider component successfully, ensure that you have the following setup in your React Native project:
 
+Install the required packages:
+
+
+npm install react-native-reanimated react-native-gesture-handler
+Link the packages:
+For React Native version 0.59 or above, linking should be automatic. For older versions, you may need to manually link the packages by running:
+
+
+react-native link react-native-reanimated
+react-native link react-native-gesture-handler
+Make sure your babel.config.js or .babelrc file includes the react-native-reanimated/plugin:
+For babel.config.js:
+
+
+module.exports = {
+  presets: ['module:metro-react-native-babel-preset'],
+  plugins: ['react-native-reanimated/plugin'],
+};
+Now you can use the CustomSlider component in your project. Import and use it like this:
+
+
+import CustomSlider from './path/to/CustomSlider';
+
+// ...your other code
+
+const MyComponent = () => {
+  // ...your code
+
+  return (
+    <CustomSlider
+      sliderWidth={...}
+      min={...}
+      max={...}
+      step={...}
+      onValueChange={...}
+      multiSelect={...}
+      style={...}
+    />
+};
+With these steps completed, you should be able to use the CustomSlider component with the smooth animations and touch interactions powered by react-native-reanimated and react-native-gesture-handler libraries. Enjoy developing interactive range selection in your React Native application!
