@@ -1,8 +1,9 @@
 # react-native-customslider
+
+<img width="345" alt="Screenshot 2023-08-01 at 5 03 36 PM" src="https://github.com/mayankdhiman001/react-native-customslider/assets/139946115/c2209b88-d9a7-4120-a06c-13be10a4f06a">
+
 CustomSlider is a versatile React Native component for range selection. Users can slide thumbs to pick values. Smooth animations, multi-select support. Ideal for prices, dates &amp; more. GitHub repo available. 
 CustomSlider React Native Component
-
-
 
 
 import CustomSlider from './CustomSlider';
